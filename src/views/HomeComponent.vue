@@ -15,32 +15,14 @@
           <img src="./../assets/Background(2).png" alt="error profile" />
         </div>
       </div>
-
-      <about-component></about-component>
-      <work-component></work-component>
-      <contact-component></contact-component>
-      <router-component></router-component>
     </div>
     <div class="text-5xl text-center mt-10 mb-10">Thank you!</div>
   </div>
 </template>
 
 <script>
-import AboutComponent from "./AboutComponent.vue";
-import WorkComponent from "./WorkComponent.vue";
-import ContactComponent from "./ContactComponent.vue";
-import RouterComponent from "../router/RouterComponent.vue";
-// import { useRoute, useRouter } from "vue-router";
-// const router = useRouter();
-// const route = useRoute();
 export default {
   name: "HomeComponent",
-  components: {
-    AboutComponent,
-    WorkComponent,
-    ContactComponent,
-    RouterComponent,
-  },
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-5">
-    <p class="text-amber-300 text-5xl font-bold hover:underline">Work.</p>
-    <p class="mt-20">
+  <div class="ml-20">
+    <p class="text-amber-300 text-5xl font-bold hover:underline mr-5">Work.</p>
+    <p class="mt-5">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut fugiat
       iusto, impedit nam illo enim excepturi sit eaque accusamus quasi
       reiciendis error vero sed maxime odit quia corporis eveniet molestiae quae
@@ -24,7 +24,7 @@
       <div class="">
         <img src="./../assets/comp2.jpg" alt="work image 1" />
         <p class="italic">May 31, 2023</p>
-        <p class="font-bold text-2xl mt-2">Some Case Study</p>
+        <p class="font-bold text-2xl mt-2">Working</p>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
           molestias adipisci repellendus consequatur perferendis voluptates
@@ -34,6 +34,7 @@
         </p>
       </div>
     </div>
+    <h1 class="text-5xl font-bold my-10">Good luck!</h1>
   </div>
 </template>
 
