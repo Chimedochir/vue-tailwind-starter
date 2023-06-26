@@ -1,6 +1,6 @@
 <template>
-  <nav class="flex text-2xl pl-3 pt-4 text-blue-900 mt-5">
-    <div class="ml-80 pb-5 space-x-8">
+  <nav class="flex text-2xl pl-3 pt-4 text-blue-900 mt-5 ">
+    <div class="ml-80 pb-5 space-x-8 ">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/contact">Contact</router-link>
@@ -17,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
 }
 /* 
 nav {
